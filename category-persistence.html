@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>cun</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Flow+Block&amp;display=swap">
+    <link rel="stylesheet" href="../assets/css/lib/sweetalert2.min.css">
+    <link rel="stylesheet" href="../assets/css/lib/Stats-icons.css">
+    <link rel="stylesheet" href="../assets/css/untitled.css">
+</head>
+
+<body>
+    <div id="loading-indicator">Cargando...</div>
+    <div id="header-admin"></div>
+    <h1 class="text-center mt-5" id="category-title-form">Agregar Categoría</h1>
+    <div class="card">
+        <div class="card-body text-center d-flex flex-column align-items-center">
+            <form id="category-form" method="post" data-bs-theme="light">
+                <div class="mb-3"><input class="form-control" type="text" id="name" name="name" placeholder="nombre">
+                </div>
+                <div class="mb-3"><textarea class="form-control" id="description" name="description"
+                        placeholder="description"></textarea></div>
+                <div class="mb-3"><button class="btn btn-primary shadow d-block w-100" type="submit">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/lib/jquery-3.6.0.min.js"></script>
+    <script src="../assets/js/pages/main-admin.js"></script>
+    <script src="../assets/js/lib/sweetalert2.all.min.js"></script>
+    <script src="../assets/js/lib/jquery.validate.min.js"></script>
+    <script src="../assets/js/lib/additional-methods.min.js"></script>
+    <script src="../assets/js/lib/axios.min.js"></script>
+    <script src="../assets/js/lib/bold-and-bright.js"></script>
+    <script src="../assets/js/lib/jwt-decode.min.js"></script>
+    <script src="../assets/js/common/auth.js"></script>
+    <script src="../assets/js/common/format.js"></script>
+    <script src="../assets/js/pages/admin/category-persistence.js"></script>
+</body>
+
+</html>
