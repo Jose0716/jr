@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>cun</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Flow+Block&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/lib/sweetalert2.min.css">
+    <link rel="stylesheet" href="assets/css/lib/Stats-icons.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+</head>
+
+<body>
+    <div id="loading-indicator">Cargando...</div>
+    <div id="header"></div>
+    <section class="py-5">
+        <div class="container pb-5">
+            <div class="row mb-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h1>Lista de Deseos</h1>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 mx-auto container-cart" id="wishlist-list"
+                style="max-width: 900px;">
+                <div class="col mb-4">
+                    <div><a href="#"><img class="rounded img-fluid shadow w-100 fit-cover"
+                                src="assets/img/products/1.jpg" style="height: 250px;"></a>
+                        <div class="py-4"><span class="badge bg-primary mb-2 fw-light block-font">Website</span>
+                            <h4 class="block-font">Lorem libero donec</h4>
+                            <p class="block-font">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo
+                                odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at
+                                eget metus.</p>
+                            <div class="btn-group" role="group"><button class="btn btn-primary disabled" type="button"
+                                    disabled=""><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                        fill="currentColor" viewBox="0 0 16 16" class="bi bi-cart3">
+                                        <path
+                                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2">
+                                        </path>
+                                    </svg></button><button class="btn btn-primary disabled" type="button"
+                                    disabled=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512"
+                                        width="1em" height="1em" fill="currentColor">
+                                        <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                                        <path
+                                            d="M64 80c-8.8 0-16 7.2-16 16V416c0 8.8 7.2 16 16 16H384c8.8 0 16-7.2 16-16V96c0-8.8-7.2-16-16-16H64zM0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM152 232H296c13.3 0 24 10.7 24 24s-10.7 24-24 24H152c-13.3 0-24-10.7-24-24s10.7-24 24-24z">
+                                        </path>
+                                    </svg></button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div><a href="#"><img class="rounded img-fluid shadow w-100 fit-cover"
+                                src="assets/img/products/2.jpg" style="height: 250px;"></a>
+                        <div class="py-4"><span class="badge bg-primary mb-2 fw-light block-font">Website</span>
+                            <h4 class="block-font">Lorem libero donec</h4>
+                            <p class="block-font">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo
+                                odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at
+                                eget metus.</p>
+                            <div class="btn-group" role="group"><button class="btn btn-primary disabled" type="button"
+                                    disabled=""><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                        fill="currentColor" viewBox="0 0 16 16" class="bi bi-cart3">
+                                        <path
+                                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2">
+                                        </path>
+                                    </svg></button><button class="btn btn-primary disabled" type="button"
+                                    disabled=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512"
+                                        width="1em" height="1em" fill="currentColor">
+                                        <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                                        <path
+                                            d="M64 80c-8.8 0-16 7.2-16 16V416c0 8.8 7.2 16 16 16H384c8.8 0 16-7.2 16-16V96c0-8.8-7.2-16-16-16H64zM0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM152 232H296c13.3 0 24 10.7 24 24s-10.7 24-24 24H152c-13.3 0-24-10.7-24-24s10.7-24 24-24z">
+                                        </path>
+                                    </svg></button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/lib/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/pages/main.js"></script>
+    <script src="assets/js/lib/sweetalert2.all.min.js"></script>
+    <script src="assets/js/lib/jquery.validate.min.js"></script>
+    <script src="assets/js/lib/additional-methods.min.js"></script>
+    <script src="assets/js/lib/axios.min.js"></script>
+    <script src="assets/js/lib/bold-and-bright.js"></script>
+    <script src="assets/js/lib/jwt-decode.min.js"></script>
+    <script src="assets/js/common/auth.js"></script>
+    <script src="assets/js/common/format.js"></script>
+    <script src="assets/js/pages/client/wishList.js"></script>
+    <script src="assets/js/pages/client/cart.js"></script>
+</body>
+
+</html>
